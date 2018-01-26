@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <AutoCompleteTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Source"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/tvSourceTrain" />
+
+    <AutoCompleteTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Destination"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/tvDestTrain" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bSearch"
+        android:text="Search"/>
+    <ListView
+        android:id="@+id/lvTrainList"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal"
+
+        />
+
+
+</LinearLayout>
